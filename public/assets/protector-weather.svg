@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="88" viewBox="0 0 112 88" fill="none">
+  <defs>
+    <radialGradient id="sun" cx=".32" cy=".25" r=".8"><stop stop-color="#FFF6BA"/><stop offset=".45" stop-color="#FFDE69"/><stop offset="1" stop-color="#F3AF3C"/></radialGradient>
+    <linearGradient id="cloud" x1="55" y1="36" x2="68" y2="80" gradientUnits="userSpaceOnUse"><stop stop-color="white"/><stop offset=".65" stop-color="#EEF6FF"/><stop offset="1" stop-color="#BDDCF1"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="5" stdDeviation="3" flood-color="#1E4D8B" flood-opacity=".2"/></filter>
+  </defs>
+  <g stroke="#FFEAA0" stroke-width="3" stroke-linecap="round"><path d="M43 8V3M22 15l-4-4M13 34H7M23 55l-4 4M63 15l4-4M73 34h5"/></g>
+  <circle cx="43" cy="34" r="23" fill="url(#sun)" filter="url(#shadow)"/>
+  <path d="M30 43c-8 0-14 6-14 14s6 14 14 14h55c10 0 18-7 18-16 0-8-6-15-14-16a23 23 0 0 0-43-6c-7-2-13 2-16 10Z" fill="url(#cloud)" filter="url(#shadow)"/>
+  <path d="M49 39c5-13 23-17 33-6" stroke="white" stroke-opacity=".8" stroke-width="3" stroke-linecap="round"/>
+</svg>

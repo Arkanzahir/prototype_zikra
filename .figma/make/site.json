@@ -1,0 +1,10 @@
+{
+  "description": "Zikra is an Islamic student companion app that integrates prayer times, study goals, and AI assistance to enhance learning and spiritual growth.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
